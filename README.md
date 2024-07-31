@@ -16,3 +16,18 @@ Data: S&P 500 stock data from Yahoo Finance.
 Code: Python scripts implementing linear and quadratic programming models using cvxpy.
 Visualisations: Time series plots and other visual analyses comparing the performance of the two models.
 Documentation: Detailed explanations of the methods, findings, and implications for portfolio optimisation.
+
+# Language & Packages
+
+Python:
+- yfinance
+- scipy
+- numpy
+- matplotlib
+- time
+- gekko
+- matplotlib.pyplot
+- pulp
+- scipy.optimize
+- pandas
+- cvxpy
