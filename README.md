@@ -16,3 +16,17 @@ Data: S&P 500 stock data from Yahoo Finance.
 Code: Python scripts implementing linear and quadratic programming models using cvxpy.
 Visualisations: Time series plots and other visual analyses comparing the performance of the two models.
 Documentation: Detailed explanations of the methods, findings, and implications for portfolio optimisation.
+
+# Getting Started
+Clone the Repository:
+bash
+Copy code
+git clone https://github.com/yourusername/portfolio-optimisation.git
+
+# Install Dependencies:
+Ensure you have Python and necessary libraries like cvxpy, numpy, and matplotlib installed.
+bash
+Copy code
+pip install -r requirements.txt
+Run the Analysis:
+Execute the provided scripts to replicate the study or apply the methods to new data.
