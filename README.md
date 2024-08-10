@@ -4,12 +4,26 @@ This project explores portfolio optimisation using linear and quadratic programm
 # Objectives
 Linear Programming: Minimise the sum of absolute deviations from mean returns to reduce portfolio variance.
 Quadratic Programming: Minimise portfolio variance using a covariance matrix to account for relationships between asset returns.
-# Key Findings
-Performance: The linear programming portfolio generally achieved higher returns but with greater variance compared to the quadratic portfolio.
-Risk Management: The quadratic model demonstrated better risk control and stability due to its inherent consideration of asset correlations.
-Constraints: Implementing diversification constraints was crucial for the linear model to prevent concentrated risk and improve comparability with the quadratic model.
-Practical Implications
-This study provides insights into the strengths and limitations of different optimisation techniques, highlighting the importance of choosing the appropriate model based on specific investment goals and risk tolerance. It also underscores the value of mathematical optimisation in real-world financial decision-making.
+
+Key Findings
+1. Linear Programming Bias:
+• The linear programming model tends to concentrate investments in a single stock due
+to the imbalanced scaling of variables within the objective function. This issue arises
+because the linear model struggles to adequately balance mean absolute deviations
+and mean returns.
+2. Quadratic Programming Superiority:
+• Quadratic programming effectively accounts for the complexities of stock
+correlations through the covariance matrix, resulting in a well-diversified portfolio.
+This model demonstrates a 192% lower variance compared to the linear model,
+showcasing its ability to manage risk better.
+3. Computational Efficiency:
+2
+• While the linear model is computationally more efficient, taking on average 0.13
+seconds to solve, it fails to achieve the same level of accuracy and robustness as the
+quadratic model, which takes about 0.4 seconds. The quadratic model's longer
+computation time is justified by its significantly better performance and accurate
+representation of portfolio risk.
+
 
 # Repository Contents
 Data: Monte Carlo Simulation, 500 Stocks. 
