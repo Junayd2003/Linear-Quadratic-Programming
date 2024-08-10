@@ -12,7 +12,7 @@ Practical Implications
 This study provides insights into the strengths and limitations of different optimisation techniques, highlighting the importance of choosing the appropriate model based on specific investment goals and risk tolerance. It also underscores the value of mathematical optimisation in real-world financial decision-making.
 
 # Repository Contents
-Data: S&P 500 stock data from Yahoo Finance.
+Data: Monte Carlo Simulation, 500 Stocks. 
 Code: Python scripts implementing linear and quadratic programming models using cvxpy.
 Visualisations: Time series plots and other visual analyses comparing the performance of the two models.
 Documentation: Detailed explanations of the methods, findings, and implications for portfolio optimisation.
