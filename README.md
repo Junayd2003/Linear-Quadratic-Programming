@@ -1,5 +1,5 @@
 ## Overview
-This project explores portfolio optimisation using linear and quadratic programming methods, focusing on the S&P 500 index data from 2000 to 2015. The study aims to compare the effectiveness of these two mathematical approaches in balancing risk and return in investment portfolios.
+This project explores portfolio optimisation using linear and quadratic programming methods in a comparative analysis that emphasises the limitations and benefits of both methods in their respective use cases. 
 
 # Objectives
 Linear Programming: Minimise the sum of absolute deviations from mean returns to reduce portfolio variance.
